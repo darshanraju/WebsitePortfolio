@@ -5,9 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="home">
-        <span>&lt;</span>
-        <a href="#">Darshan</a>
-        <span>\&gt;</span>
+        <span>&lt;\&gt;</span>
       </div>
       <ul className="nav-menu">
         <li className="nav-item">

@@ -1,0 +1,8 @@
+.particles {
+  transition: background-color 0.5s linear;
+  position: absolute;
+  background-color: var(--primaryBackgroundColor);
+  background-repeat: no-repeat;
+  height: 100%;
+  /* background-position: 50% 50%; */
+}
