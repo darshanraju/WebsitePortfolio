@@ -15,7 +15,9 @@ const Header = () => {
           <a href="#projects">Projects</a>
         </li>
         <li className="nav-item" id="skills">
-          <a href="#skills">Skills</a>
+          <p id="skills-underline">
+            <a href="#skills">Skills </a>
+          </p>
         </li>
         <li className="nav-item">
           <a href="#certifications">Certifications</a>

@@ -37,6 +37,7 @@
 ul a {
   list-style-type: none;
   text-decoration-line: none;
+  text-decoration: red;
   color: white;
   font-size: 20px;
 }
@@ -49,12 +50,13 @@ li {
 }
 
 li:hover {
-  border-bottom: 3px solid #c1c2c3;
+  border-bottom: 3px solid #94918f;
   transform: translateY(-3px);
   transition: 0.15s ease-out;
 }
 
-#skills {
-  text-decoration: wavy underline red;
-  text-underline-offset: 6px;
+#skills-underline {
+  color: red;
+  text-decoration: underline wavy;
+  text-underline-offset: 4px;
 }

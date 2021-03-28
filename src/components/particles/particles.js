@@ -5,7 +5,6 @@ import "./particles.css";
 const ParticlesEffect = () => (
   <div className="particles-container">
     <Particles
-      height={"723px"}
       params={{
         fullScreen: {
           enable: false,
