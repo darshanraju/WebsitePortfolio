@@ -10,7 +10,7 @@
 
 .home {
   text-align: center;
-  padding-top: 13px;
+  padding-top: 10px;
   margin-left: 35px;
   font-size: 32px;
   font-family: "Source Code Pro", sans-serif;
@@ -52,4 +52,9 @@ li:hover {
   border-bottom: 3px solid #c1c2c3;
   transform: translateY(-3px);
   transition: 0.15s ease-out;
+}
+
+#skills {
+  text-decoration: wavy underline red;
+  text-underline-offset: 6px;
 }
