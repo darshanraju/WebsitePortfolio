@@ -3,17 +3,13 @@ import Particles from "react-particles-js";
 import "./particles.css";
 
 const ParticlesEffect = () => (
-  <div
-    className="test"
-    style={{
-      position: "fixed",
-      top: 0,
-      width: "100%",
-      height: "100%",
-    }}
-  >
+  <div className="particles-container">
     <Particles
+      height={"723px"}
       params={{
+        fullScreen: {
+          enable: false,
+        },
         particles: {
           number: {
             value: 150,

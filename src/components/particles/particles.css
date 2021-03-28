@@ -1,8 +1,6 @@
-.particles {
-  transition: background-color 0.5s linear;
+.particles-container {
   position: absolute;
-  background-color: var(--primaryBackgroundColor);
-  background-repeat: no-repeat;
-  height: 100%;
-  /* background-position: 50% 50%; */
+  width: 100%;
+  height: 95%;
+  border: 5px solid white;
 }
