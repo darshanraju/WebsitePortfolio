@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -9,18 +10,27 @@ const Header = () => {
       </div>
       <ul className="nav-menu">
         <li className="nav-item">
-          <a href="#experience">Experience</a>
+          <Link activeClass="active" to="experience">
+            Experience
+          </Link>
         </li>
+
         <li className="nav-item">
-          <a href="#projects">Projects</a>
+          <Link activeClass="active" to="projects">
+            Projects
+          </Link>
         </li>
         <li className="nav-item" id="skills">
           <p id="skills-underline">
-            <a href="#skills">Skills </a>
+            <Link activeClass="skills" to="projects">
+              Skills
+            </Link>
           </p>
         </li>
         <li className="nav-item">
-          <a href="#certifications">Certifications</a>
+          <Link activeClass="certifications" to="projects">
+            Certifications
+          </Link>
         </li>
       </ul>
     </div>
