@@ -1,4 +1,21 @@
-.experience {
-  color: white;
-  font-size: 100px;
+.exp-container {
+  padding: 50px 20px 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exp-container .exp-title {
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+  font-size: 45px;
+  color: #f1f2f3;
+  text-align: center;
+}
+
+.exp-card-container {
+  margin-top: 100px;
+  display: inline-block;
+  min-width: 500px;
 }

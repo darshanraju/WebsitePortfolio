@@ -47,7 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Future Implementations
 
-1. Section for experience
-2. Ssection for education
+1. Add Icons of what I learned (React, Typescript, MySQL, Mariad, etc, next the internship)
+2. Section for education
 3. Section for Projects
 4. Add typing effects for home page
