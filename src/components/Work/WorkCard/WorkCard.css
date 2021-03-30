@@ -9,6 +9,7 @@
   border-radius: 5%;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .work-card-container:hover {

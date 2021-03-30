@@ -1,5 +1,5 @@
 .exp-container {
-  padding: 50px 20px 0px;
+  padding: 0px 0px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,38 @@
 }
 
 .exp-card-container {
-  margin-top: 100px;
+  margin-top: 0rem;
   display: inline-block;
   min-width: 500px;
+}
+
+.aws-image {
+  position: absolute;
+  right: 17rem;
+  height: 8rem;
+  width: 12rem;
+  background-image: url("../../../images/AWSLogo.png");
+  background-size: contain;
+  border: none;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+}
+.serviceNow-image {
+  position: absolute;
+  left: 12rem;
+  height: 18rem;
+  width: 20rem;
+  background-image: url("../../../images/serviceNow.png");
+  background-size: contain;
+  border: none;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+}
+
+.test {
+  z-index: 999;
+  position: absolute;
+  right: 3rem;
+  height: 100px;
+  width: 100px;
 }

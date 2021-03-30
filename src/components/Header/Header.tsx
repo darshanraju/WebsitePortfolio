@@ -6,29 +6,31 @@ const Header = () => {
   return (
     <div className="header">
       <div className="home">
-        <span>&lt;\&gt;</span>
+        <Link activeClass="active" to="hero" smooth={true}>
+          <span>&lt;\&gt;</span>
+        </Link>
       </div>
       <ul className="nav-menu">
         <li className="nav-item">
-          <Link activeClass="active" to="experience">
+          <Link activeClass="active" to="experience" smooth={true}>
             Experience
           </Link>
         </li>
 
         <li className="nav-item">
-          <Link activeClass="active" to="projects">
+          <Link activeClass="active" to="projects" offset={-48} smooth={true}>
             Projects
           </Link>
         </li>
         <li className="nav-item" id="skills">
           <p id="skills-underline">
-            <Link activeClass="skills" to="projects">
+            <Link activeClass="skills" to="projects" smooth={true}>
               Skills
             </Link>
           </p>
         </li>
         <li className="nav-item">
-          <Link activeClass="certifications" to="projects">
+          <Link activeClass="certifications" to="projects" smooth={true}>
             Certifications
           </Link>
         </li>

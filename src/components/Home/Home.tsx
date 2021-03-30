@@ -4,7 +4,7 @@ import Particles from "../particles/particles";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container" id="hero">
       <Particles />
       <div className="text-container">
         <div className="text-title">Hey, I'm Darshan</div>

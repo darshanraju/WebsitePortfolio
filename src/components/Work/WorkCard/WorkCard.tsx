@@ -12,7 +12,6 @@ const WorkCard = ({
   const buttonIcon = () => {
     return viewResponsibilities ? "fas fa-angle-up" : "fas fa-angle-down";
   };
-  //<i class="fas fa-chevron-down"></i>
 
   return (
     <Fade duration={800} bottom>
