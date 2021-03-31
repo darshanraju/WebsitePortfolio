@@ -1,5 +1,5 @@
 .work-card-container {
-  background-color: #212223;
+  background-color: #112240;
   color: white;
   display: inline-block;
   box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.2);
@@ -9,7 +9,7 @@
   border-radius: 5%;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  padding: 2rem;
 }
 
 .work-card-container:hover {
@@ -19,12 +19,12 @@
 
 .word-card-role {
   padding-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .word-card-company {
   padding: 1.5rem 0rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: rgb(235, 221, 202);
 }
 
@@ -33,6 +33,7 @@
   color: rgb(148, 139, 126);
   justify-self: center;
   margin-left: 4rem;
+  font-size: 1.4rem;
 }
 
 .word-card-responsibilities-container {
@@ -43,12 +44,14 @@
   flex-grow: 1;
   width: 0;
   padding: 0.5rem 0.8rem;
+  font-size: 1.35rem;
 }
 
 .show-resp-btn {
-  height: 2rem;
-  width: 2rem;
-  background-color: rgb(148, 139, 126);
+  height: 2.4rem;
+  width: 2.4rem;
+  font-size: 2rem;
+  background-color: #112240;
   border: none;
   cursor: pointer;
   margin-right: 2rem;
@@ -57,5 +60,10 @@
 }
 
 .word-card-responsibilities-container:last-child {
+  font-size: 1.7rem;
   margin-bottom: 0.5rem;
+}
+
+.fas {
+  color: #66fcf1;
 }

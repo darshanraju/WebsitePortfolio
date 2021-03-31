@@ -3,7 +3,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: #121314;
+  background-color: #0a192f;
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -13,4 +13,9 @@ body {
 * {
   padding: 0;
   margin: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }

@@ -1,39 +1,49 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-scroll";
+const Fade = require("react-reveal/Fade");
 
 const Header = () => {
   return (
     <div className="header">
       <div className="home">
-        <Link activeClass="active" to="hero" smooth={true}>
-          <span>&lt;\&gt;</span>
-        </Link>
+        <Fade duration={800} left>
+          <Link activeClass="active" to="hero" smooth={true}>
+            <span>&lt;\&gt;</span>
+          </Link>
+        </Fade>
       </div>
       <ul className="nav-menu">
-        <li className="nav-item">
-          <Link activeClass="active" to="experience" smooth={true}>
-            Experience
-          </Link>
-        </li>
-
-        <li className="nav-item">
-          <Link activeClass="active" to="projects" offset={-48} smooth={true}>
-            Projects
-          </Link>
-        </li>
-        <li className="nav-item" id="skills">
-          <p id="skills-underline">
-            <Link activeClass="skills" to="projects" smooth={true}>
-              Skills
+        <Fade duration={800} bottom>
+          <li className="nav-item">
+            <Link activeClass="active" to="experience" smooth={true}>
+              <span className="numbers">01. </span>Experience
             </Link>
-          </p>
-        </li>
-        <li className="nav-item">
-          <Link activeClass="certifications" to="projects" smooth={true}>
-            Certifications
-          </Link>
-        </li>
+          </li>
+        </Fade>
+        <Fade duration={800} bottom>
+          <li className="nav-item">
+            <Link activeClass="active" to="projects" offset={-48} smooth={true}>
+              <span className="numbers">02. </span>Projects
+            </Link>
+          </li>
+        </Fade>
+
+        <Fade duration={800} bottom>
+          <li className="nav-item">
+            <Link activeClass="skills" to="projects" smooth={true}>
+              <span className="numbers">03. </span>Skills
+            </Link>
+          </li>
+        </Fade>
+
+        <Fade duration={800} bottom>
+          <li className="nav-item">
+            <Link activeClass="certifications" to="projects" smooth={true}>
+              <span className="numbers">04. </span> Certificates
+            </Link>
+          </li>
+        </Fade>
       </ul>
     </div>
   );

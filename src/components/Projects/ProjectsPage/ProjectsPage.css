@@ -1,0 +1,44 @@
+#projects {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+  font-size: 45px;
+  color: #f1f2f3;
+  text-align: center;
+  width: 100%;
+  text-align: left;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.title::after {
+  content: "";
+  width: 18rem;
+  height: 2px;
+  background: #233554;
+  display: block;
+  position: relative;
+  left: 18rem;
+  bottom: 1.5rem;
+}

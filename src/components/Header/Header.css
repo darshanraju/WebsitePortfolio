@@ -19,16 +19,11 @@
 }
 
 .home:hover * {
-  color: rgb(82, 156, 22);
+  color: #64ffda;
 }
 
 .home span {
   color: #888888;
-}
-
-.home a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .nav-menu {
@@ -45,14 +40,12 @@ ul a {
   text-decoration-line: none;
   text-decoration: red;
   color: white;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 li {
   margin-right: 20px;
   list-style-type: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 li:hover {
@@ -61,12 +54,10 @@ li:hover {
   transition: 0.15s ease-out;
 }
 
-#skills-underline {
-  color: red;
-  text-decoration: underline wavy;
-  text-underline-offset: 4px;
-}
-
 .nav-item:hover {
   cursor: pointer;
+}
+
+.numbers {
+  color: #64ffda;
 }

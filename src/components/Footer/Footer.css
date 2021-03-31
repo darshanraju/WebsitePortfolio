@@ -1,0 +1,8 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  color: rgb(255, 255, 255);
+}

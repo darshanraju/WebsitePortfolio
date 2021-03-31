@@ -1,6 +1,7 @@
 .container {
   padding-top: 0px;
   width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -9,30 +10,34 @@
 
 .text-container {
   padding-top: 190px;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70rem;
 }
 
 .text-title {
   color: white;
-  font-size: 90px;
+  font-size: 9rem;
 }
 
 .role {
-  color: rgb(199, 195, 195);
-  font-size: 55px;
-  text-align: center;
+  color: #c5c6c7;
+  font-size: 4rem;
   margin-top: 25px;
   margin-bottom: 10px;
 }
 
 .text-subtitle {
-  color: rgb(155, 153, 153);
-  font-size: 30px;
-  text-align: center;
+  margin-top: 3rem;
+  color: #c5c6c7;
+  font-size: 1.6rem;
+  text-align: left;
   margin-bottom: 15px;
+  width: 30%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .Resume {
@@ -52,4 +57,13 @@
   background-color: #ffffff;
   color: #ff0000;
   border-color: #ffffff;
+}
+
+.green {
+  color: #66fcf1;
+}
+
+.text-above-name {
+  font-size: 2rem;
+  text-align: left;
 }

@@ -31,6 +31,7 @@ const WorkCard = ({
             <i className={buttonIcon()}></i>
           </button>
         </div>
+
         <ShowResponsibilities
           responsibilities={responsibilities}
           viewResponsibilities={viewResponsibilities}
@@ -45,7 +46,7 @@ const ShowResponsibilities = ({
   viewResponsibilities,
 }: responsibilityData) => {
   return (
-    <Fade duration={500} down collapse when={viewResponsibilities}>
+    <Fade duration={900} down collapse when={viewResponsibilities}>
       {responsibilities.map((res, i) => {
         return (
           <div className="word-card-responsibilities-container" key={i}>

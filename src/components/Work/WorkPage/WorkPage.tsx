@@ -6,7 +6,7 @@ const WorkPage: React.FC = () => {
   return (
     <section className="exp-container" id="experience">
       <div className="exp-title">
-        <p>Experience</p>
+        <span className="green">01. </span>Experience
       </div>
       <div className="exp-card-container">
         <div>
@@ -19,7 +19,7 @@ const WorkPage: React.FC = () => {
             company="Amazon Web Services"
             responsibilities={[
               "Used Typescript with React to develop and maintain features in an AWS service.",
-              "Integrating S3 into a new AWS Incident Management service, enabling customers to upload files to incidents, which allows for the documenting ofprogression and resolution or incidents.",
+              "Integrated S3 into a new AWS Incident Management service, enabling customers to upload files to incidents, which allows for the documenting ofprogression and resolution or incidents.",
             ]}
             key={1}
           />
