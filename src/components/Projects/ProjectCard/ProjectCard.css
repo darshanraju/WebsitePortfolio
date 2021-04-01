@@ -98,6 +98,7 @@
   height: 100%;
   border-radius: 15%;
   opacity: 0.9;
+  transition: all 0.5s ease-out;
 }
 
 .project-image:hover {
