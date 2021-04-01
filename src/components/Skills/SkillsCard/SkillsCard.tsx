@@ -1,20 +1,29 @@
-import React from "react";
 import "./SkillsCard.css";
-import typescript from "../../../images/typescript.png";
 
-const SkillsCard = () => {
+const SkillsCard = ({ percentage, icon, skill }: SkillCardData) => {
+  const completedWidth = `${percentage}%`;
+
   return (
     <div className="skill-card-container">
       <div className="skill-image-container">
-        <img className="logo" src={typescript} alt="" />
+        <i className={icon}></i>
       </div>
-      <div className="skill-name">TypeScript</div>
+      <div className="skill-name">{skill}</div>
       <div className="skill-percentage-bar-container">
-        <div className="skill-percentage-bar-completed"></div>
+        <div
+          className="skill-percentage-bar-completed"
+          style={{ width: completedWidth }}
+        ></div>
       </div>
-      <div className="skill-percentage-number">50%</div>
+      <div className="skill-percentage-number">{percentage}%</div>
     </div>
   );
 };
+
+interface SkillCardData {
+  percentage: string;
+  icon: string;
+  skill: string;
+}
 
 export default SkillsCard;

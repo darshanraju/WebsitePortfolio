@@ -10,7 +10,9 @@ const WorkCard = ({
 }: workCardData) => {
   const [viewResponsibilities, setViewResponsibilities] = useState(false);
   const buttonIcon = () => {
-    return viewResponsibilities ? "fas fa-angle-up" : "fas fa-angle-down";
+    return viewResponsibilities
+      ? "fas fa-angle-up resp-btn"
+      : "fas fa-angle-down resp-btn";
   };
 
   return (

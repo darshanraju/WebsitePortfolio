@@ -28,7 +28,7 @@ const Header = () => {
         </Fade>
         <Fade duration={800} bottom>
           <li className="nav-item">
-            <Link activeClass="active" to="projects" offset={-48} smooth={true}>
+            <Link activeClass="active" to="projects" smooth={true}>
               <span className="numbers">02. </span>Projects
             </Link>
           </li>

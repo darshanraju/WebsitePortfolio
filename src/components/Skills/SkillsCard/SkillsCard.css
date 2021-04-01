@@ -44,7 +44,6 @@
 .skill-percentage-bar-completed {
   height: 100%;
   background-color: white;
-  width: 50%;
 }
 
 .skill-percentage-number {
@@ -55,4 +54,10 @@
   padding-top: 5%;
   color: white;
   font-size: 1.5rem;
+}
+
+.tre {
+  padding-top: 15%;
+  color: white;
+  font-size: 7rem;
 }
