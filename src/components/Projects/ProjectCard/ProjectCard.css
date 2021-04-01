@@ -3,11 +3,16 @@
 }
 
 .project-card-container {
-  margin-top: 8rem;
+  margin-top: 2%;
   width: 100%;
   display: flex;
   flex-direction: row;
   border-radius: 5%;
+  height: 45%;
+}
+
+.project-card-container:first-child {
+  margin-top: 0%;
 }
 
 .project-info {
@@ -16,9 +21,10 @@
 
 .project-image-container {
   width: 60%;
-  height: 100%;
-  opacity: 0.5;
+  height: 90%;
   border-radius: 10%;
+  border-style: solid;
+  background-color: #64ffda;
 }
 
 .project-image-container:hover {
@@ -88,8 +94,12 @@
 
 .project-image {
   position: relative;
-  top: 2rem;
   width: 100%;
   height: 100%;
   border-radius: 15%;
+  opacity: 0.9;
+}
+
+.project-image:hover {
+  opacity: 1;
 }

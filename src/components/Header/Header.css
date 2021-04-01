@@ -2,9 +2,9 @@
   position: fixed;
   display: flex;
   flex-direction: row;
-  background-color: #242526;
+  background-color: #0a192f;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   z-index: 999;
 }
 
@@ -16,14 +16,11 @@
   font-weight: 900;
   font-family: "Source Code Pro", sans-serif;
   cursor: pointer;
-}
-
-.home:hover * {
-  color: #64ffda;
-}
-
-.home span {
   color: #888888;
+}
+
+.home:hover {
+  color: #64ffda;
 }
 
 .nav-menu {
@@ -31,31 +28,25 @@
   height: 100%;
   width: 100%;
   justify-content: flex-end;
-  align-items: center;
+  padding-top: 10px;
   margin-right: 20px;
 }
 
-ul a {
-  list-style-type: none;
-  text-decoration-line: none;
-  text-decoration: red;
+.nav-item {
   color: white;
-  font-size: 1.1rem;
-}
-
-li {
+  font-size: 1.4rem;
   margin-right: 20px;
   list-style-type: none;
-}
-
-li:hover {
-  border-bottom: 3px solid #94918f;
-  transform: translateY(-3px);
-  transition: 0.15s ease-out;
+  transition: 0.2s;
+  height: fit-content;
 }
 
 .nav-item:hover {
   cursor: pointer;
+  transform: translate(0, 10px);
+  /* background-color: #64ffda; */
+  text-decoration: #64ffda;
+  color: #64ffda;
 }
 
 .numbers {

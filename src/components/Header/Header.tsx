@@ -16,7 +16,12 @@ const Header = () => {
       <ul className="nav-menu">
         <Fade duration={800} bottom>
           <li className="nav-item">
-            <Link activeClass="active" to="experience" smooth={true}>
+            <Link
+              activeClass="active"
+              className="testtwo"
+              to="experience"
+              smooth={true}
+            >
               <span className="numbers">01. </span>Experience
             </Link>
           </li>
@@ -31,7 +36,7 @@ const Header = () => {
 
         <Fade duration={800} bottom>
           <li className="nav-item">
-            <Link activeClass="skills" to="projects" smooth={true}>
+            <Link activeClass="active" to="skills" smooth={true}>
               <span className="numbers">03. </span>Skills
             </Link>
           </li>
@@ -39,8 +44,8 @@ const Header = () => {
 
         <Fade duration={800} bottom>
           <li className="nav-item">
-            <Link activeClass="certifications" to="projects" smooth={true}>
-              <span className="numbers">04. </span> Certificates
+            <Link activeClass="contact" to="contact" smooth={true}>
+              <span className="numbers">04. </span> Contact
             </Link>
           </li>
         </Fade>

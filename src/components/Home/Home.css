@@ -21,6 +21,11 @@
 .text-title {
   color: white;
   font-size: 9rem;
+  transition: all 0.3s ease-out;
+}
+
+.text-title:hover {
+  transform: translate(0, -5px);
 }
 
 .role {
@@ -38,25 +43,6 @@
   margin-bottom: 15px;
   width: 30%;
   font-family: "Montserrat", sans-serif;
-}
-
-.Resume {
-  width: 200px;
-  border: 2px solid bisque;
-  padding: 15px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.Resume a {
-  text-decoration: none;
-  font-size: 25px;
-}
-
-.Resume:hover {
-  background-color: #ffffff;
-  color: #ff0000;
-  border-color: #ffffff;
 }
 
 .green {

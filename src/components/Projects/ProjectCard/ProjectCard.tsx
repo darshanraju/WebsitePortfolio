@@ -1,7 +1,5 @@
-import React from "react";
 import "./ProjectCard.css";
-import logo from "../../../AWSLogo-copy.png";
-import logoV2 from "../../../Project-Website.PNG";
+import logoV2 from "../../../images/Project-Website.PNG";
 
 const Fade = require("react-reveal/Fade");
 

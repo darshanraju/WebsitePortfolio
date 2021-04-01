@@ -1,12 +1,9 @@
-import React from "react";
 import "./Home.css";
-import Particles from "../particles/particles";
 const Fade = require("react-reveal/Fade");
 
 const Home = () => {
   return (
     <div className="container" id="hero">
-      {/* <Particles /> */}
       <div className="text-container">
         <Fade duration={800} bottom>
           <div className="text-above-name green">Hey, I'm</div>

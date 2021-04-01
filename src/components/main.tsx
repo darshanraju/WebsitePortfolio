@@ -1,8 +1,9 @@
 import React from "react";
-import Footer from "./Footer/Footer";
+import Contact from "./Contact/Contact";
 import Header from "./Header/Header";
 import Home from "./Home/Home";
 import ProjectsPage from "./Projects/ProjectsPage/ProjectsPage";
+import SkillsPage from "./Skills/SkillsPage/SkillsPage";
 import WorkPage from "./Work/WorkPage/WorkPage";
 
 const Main = () => {
@@ -12,7 +13,8 @@ const Main = () => {
       <Home />
       <WorkPage />
       <ProjectsPage />
-      <Footer />
+      <SkillsPage />
+      <Contact />
     </>
   );
 };

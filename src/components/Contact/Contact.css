@@ -1,0 +1,59 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+.contact-container {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  padding-bottom: 2rem;
+  font-size: 45px;
+  color: #f1f2f3;
+  text-align: center;
+  width: 100%;
+  text-align: left;
+  height: 10%;
+}
+
+.text-above-contact {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.stay-connected {
+  text-align: center;
+}
+
+.contact-info {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+
+.contact-btn {
+  margin-top: 5%;
+  padding: 4%;
+  background-color: transparent;
+  color: #66fcf1;
+  border: 0.2rem solid #66fcf1;
+  transition: 0.5s;
+}
+
+.contact-btn:hover,
+.inner-contact-button:hover {
+  cursor: pointer;
+  background-color: #3e928d;
+}
+
+.inner-contact-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+}

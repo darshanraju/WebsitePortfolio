@@ -7,7 +7,7 @@ const ProjectsPage = () => {
     <section id="projects">
       <div className="projects-container">
         <div className="title">
-          <span className="green">2.0 </span>Projects
+          <span className="green">3.0 </span>Projects
         </div>
         <div className="project-cards">
           <ProjectCard
