@@ -9,7 +9,7 @@ const Footer = () => {
     <section className="contact">
       <div className="contact-container">
         <div className="contact-title">
-          <div className="text-above-contact green">4.0 Whats Next?</div>
+          <div className="text-above-contact green">04. Whats Next?</div>
           <div className="stay-connected">Stay Connected</div>
         </div>
         <div className="contact-info">{contact.contactText}</div>
