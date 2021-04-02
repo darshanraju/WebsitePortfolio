@@ -4,12 +4,13 @@
   display: inline-block;
   box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.2);
   text-align: center;
-  margin-bottom: 70px;
   font-family: "Roboto", sans-serif;
   border-radius: 5%;
   display: flex;
   flex-direction: column;
   padding: 2rem;
+  width: 50rem;
+  margin-right: 4%;
 }
 
 .work-card-container:hover {

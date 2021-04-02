@@ -1,8 +1,15 @@
 import React from "react";
 import "./ProjectsPage.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import PortfolioData from "../../../PortfolioData";
 
 const ProjectsPage = () => {
+  function importAll(r: any) {
+    return r.keys().map(r);
+  }
+
+  const logos = importAll(require.context("../../../images/Projects", false));
+  const projects = PortfolioData.projects;
   return (
     <section id="projects">
       <div className="projects-container">
@@ -10,32 +17,22 @@ const ProjectsPage = () => {
           <span className="green">02. </span>Projects
         </div>
         <div className="project-cards">
-          <ProjectCard
-            gitHubRepositoryLink="https://github.com/"
-            imagePath="../../../images/githubImage.png"
-            projectInfo={[
-              "did some horendous stuff",
-              "and then some more horrible stuff, test",
-              "did some horendous stuff",
-              "and then some more horrible stuff, test",
-            ]}
-            projectName="Project 1"
-            tools={["React", "Node.js"]}
-            alignment="right"
-            key={1}
-          />
-          <ProjectCard
-            gitHubRepositoryLink="https://github.com/"
-            imagePath="../../../images/githubImage.png"
-            projectInfo={[
-              "did some horendous stuff",
-              "and then some more horrible stuff, test",
-            ]}
-            projectName="Project 2"
-            tools={["React", "Node.js"]}
-            alignment="left"
-            key={2}
-          />
+          {projects.map((project, index) => {
+            const projectMatcher = new RegExp(project.projectImage, "i");
+            const logo = logos.find((images: any) => {
+              return images.default.match(projectMatcher);
+            });
+            return (
+              <ProjectCard
+                gitHubRepositoryLink={project.githubLink}
+                image={logo.default}
+                projectInfo={project.description}
+                projectName={project.projectName}
+                tools={project.toolsUsed}
+                key={index}
+              />
+            );
+          })}
         </div>
       </div>
     </section>

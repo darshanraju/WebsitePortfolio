@@ -1,27 +1,25 @@
 import "./Home.css";
+import PortfolioData from "../../PortfolioData";
 const Fade = require("react-reveal/Fade");
 
 const Home = () => {
+  const homeData = PortfolioData.homePage;
   return (
     <div className="container" id="hero">
       <div className="text-container">
         <Fade duration={800} bottom>
-          <div className="text-above-name green">Hey, I'm</div>
-          <div className="text-title">Darshan Raju.</div>
+          <div className="text-above-name green">{homeData.introText}</div>
+          <div className="text-title">{homeData.name}</div>
         </Fade>
         <Fade duration={900} bottom>
           <div className="role">
-            <span>and I recently started to build things</span>
+            <span>{homeData.subtitle}</span>
           </div>
         </Fade>
 
         <Fade duration={1000} bottom>
           <div className="text-subtitle">
-            <span>
-              I'm a 5th year University learning computer science and
-              mathematics. I've only recently started web development , and this
-              site is my first major project.
-            </span>
+            <span>{homeData.aboutMe}</span>
           </div>
         </Fade>
 

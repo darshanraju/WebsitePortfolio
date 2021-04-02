@@ -17,11 +17,14 @@
 
 .project-info {
   justify-self: flex-end;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .project-image-container {
-  width: 60%;
-  height: 90%;
+  width: 40rem;
+  max-height: 40rem;
+  /* max-width: 40rem; */
   border-radius: 10%;
   border-style: solid;
   background-color: #64ffda;
@@ -38,7 +41,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  max-width: 40%;
+  width: 40%;
 }
 
 .project-name {
@@ -46,28 +49,21 @@
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
-  padding-right: 2rem;
   padding-bottom: 2rem;
-}
-
-.project-info {
-  color: white;
-  font-family: "Montserrat", sans-serif;
+  margin-left: 2rem;
 }
 
 .project-tools {
   padding-top: 2rem;
-  padding-right: 2rem;
+  padding-left: 2rem;
   color: white;
   font-family: "Montserrat", sans-serif;
 }
 
 .github-link {
   margin-top: 2rem;
-  margin-right: 2rem;
   font-size: 2.5rem;
   color: aquamarine;
-  margin: 10%;
 }
 
 .project-info-color-card {
@@ -79,12 +75,15 @@
   border-radius: 5%;
   box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.2);
   font-size: 1.3rem;
+  width: 100%;
 }
 
 .project-tools-container {
   display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .github-link:hover {

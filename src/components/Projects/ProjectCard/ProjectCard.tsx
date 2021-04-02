@@ -1,21 +1,20 @@
 import "./ProjectCard.css";
-import logoV2 from "../../../images/Project-Website.PNG";
+// import logoV2 from "../../../images/Projects/Project-Website.PNG";
 
 const Fade = require("react-reveal/Fade");
 
 const ProjectCard = ({
   gitHubRepositoryLink,
-  imagePath,
+  image,
   projectInfo,
   projectName,
   tools,
-  alignment,
 }: ProjectCardData) => {
   return (
     <div className="project-card-container">
       <Fade duraction={800} left>
         <div className="project-image-container">
-          <img className="project-image" src={logoV2} alt="logo" />
+          <img className="project-image" src={image} alt="logo" />
         </div>
       </Fade>
 
@@ -48,11 +47,10 @@ const ProjectCard = ({
 
 interface ProjectCardData {
   gitHubRepositoryLink: string;
-  imagePath: string;
-  projectInfo: Array<string>;
+  image: any;
+  projectInfo: string;
   projectName: string;
   tools: Array<string>;
-  alignment: "left" | "right";
 }
 
 export default ProjectCard;

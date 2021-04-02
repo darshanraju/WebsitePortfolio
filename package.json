@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-scroll": "^1.8.2"
+    "@types/react-scroll": "^1.8.2",
+    "@types/webpack-env": "^1.16.0"
   }
 }
