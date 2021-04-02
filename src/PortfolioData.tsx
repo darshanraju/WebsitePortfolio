@@ -46,7 +46,7 @@ const PortfolioData: PortfolioDataProps = {
       description:
         "Built a web portfolio to create a platform to showcase current and future projects.",
       githubLink: "https://github.com/darshanraju/WebsitePortfolio",
-      liveProjectLink: "darshanraju.com",
+      liveProjectLink: "www.darshanraju.com",
       projectImage: "Project-Website",
       projectName: "Web Portfolio",
       toolsUsed: ["React", "Typescript", "HTML", "CSS"],
