@@ -9,11 +9,15 @@ const ProjectCard = ({
   projectInfo,
   projectName,
   tools,
+  liveProjectLink,
 }: ProjectCardData) => {
   return (
     <div className="project-card-container">
       <Fade duraction={800} left>
-        <div className="project-image-container">
+        <div
+          onClick={() => window.open(liveProjectLink)}
+          className="project-image-container"
+        >
           <img className="project-image" src={image} alt="logo" />
         </div>
       </Fade>
@@ -47,6 +51,7 @@ const ProjectCard = ({
 
 interface ProjectCardData {
   gitHubRepositoryLink: string;
+  liveProjectLink?: string;
   image: any;
   projectInfo: string;
   projectName: string;

@@ -22,6 +22,7 @@ export interface ProjectsProps {
   description: string;
   toolsUsed: Array<string>;
   githubLink: string;
+  liveProjectLink?: string;
 
   //Supports only 1 image
   //I used https://image.online-convert.com/convert-to-ico to turn any image into an icon

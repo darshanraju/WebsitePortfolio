@@ -29,6 +29,7 @@ const ProjectsPage = () => {
                 projectInfo={project.description}
                 projectName={project.projectName}
                 tools={project.toolsUsed}
+                liveProjectLink={project.liveProjectLink}
                 key={index}
               />
             );
