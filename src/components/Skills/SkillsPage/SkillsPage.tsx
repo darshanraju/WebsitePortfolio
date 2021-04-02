@@ -14,7 +14,7 @@ const SkillsPage = () => {
             <span className="green">03. </span>Skills
           </div>
           <div className="skills-subtitle">
-            These metrics will vary depending on whom you ask
+            These metrics may vary depending on whom you ask.
           </div>
           <div className="skills-card-container">
             {skills.map((skill, index) => {

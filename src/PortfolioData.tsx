@@ -14,7 +14,7 @@ const PortfolioData: PortfolioDataProps = {
     name: "Darshan Raju.",
     subtitle: "and I recently started to build things",
     aboutMe:
-      "I'm a 5th year University learning computer science and mathematics. I've only recently started web development , and this site is my first major project.",
+      "I'm a 5th year University learning computer science and mathematics. I've only recently started web development, and this site is my first major project.",
   },
   experience: [
     //Order these roles earlier to oldest
@@ -24,7 +24,7 @@ const PortfolioData: PortfolioDataProps = {
       duraction: "Nov 2020 - Feb 2021",
       responsibilities: [
         "Used Typescript with React to develop and maintain features in an AWS service.",
-        "Integrated S3 into a new AWS Incident Management service, enabling customers to upload files to incidents, which allows for the documenting ofprogression and resolution or incidents.",
+        "Integrated S3 into the AWS Incident Management service, enabling customers to upload files to their incident. This allowed for better documenting the progression and remediation of their incidents.",
       ],
       iconName: "AWSLogo",
     },
@@ -44,7 +44,7 @@ const PortfolioData: PortfolioDataProps = {
   projects: [
     {
       description:
-        "Build a web portfolio to create a platform to display projects and skills I learn over time",
+        "Built a web portfolio to create a platform to showcase current and future projects.",
       githubLink: "https://github.com/darshanraju/WebsitePortfolio",
       projectImage: "Project-Website",
       projectName: "Web Portfolio",
@@ -56,6 +56,11 @@ const PortfolioData: PortfolioDataProps = {
       name: "HTML",
       percentage: "65",
       icon: "fab fa-html5",
+    },
+    {
+      name: "CSS",
+      percentage: "60",
+      icon: "devicon-css3-plain",
     },
     {
       name: "Python",
