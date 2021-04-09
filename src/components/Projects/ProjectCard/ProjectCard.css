@@ -60,6 +60,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.project-tools:hover {
+  color: #64ffda;
+}
+
 .github-link {
   margin-top: 2rem;
   font-size: 2.5rem;
