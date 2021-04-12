@@ -55,12 +55,12 @@ const PortfolioData: PortfolioDataProps = {
   ],
   skills: [
     {
-      name: "HTML",
+      name: "HTML5",
       percentage: "65",
       icon: "fab fa-html5",
     },
     {
-      name: "CSS",
+      name: "CSS3",
       percentage: "60",
       icon: "devicon-css3-plain",
     },
