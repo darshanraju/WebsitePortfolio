@@ -15,7 +15,6 @@ const Header = () => {
       </div>
       <Fade duration={1000} right cascade>
         <ul className="nav-menu">
-          {/* <Fade duration={800} bottom cascade> */}
           <li className="nav-item">
             <Link
               activeClass="active"
@@ -26,30 +25,21 @@ const Header = () => {
               <span className="numbers">01. </span>Experience
             </Link>
           </li>
-          {/* </Fade> */}
-          {/* <Fade duration={800} bottom> */}
           <li className="nav-item">
             <Link activeClass="active" to="projects" smooth={true}>
               <span className="numbers">02. </span>Projects
             </Link>
           </li>
-          {/* </Fade> */}
-
-          {/* <Fade duration={800} bottom> */}
           <li className="nav-item">
             <Link activeClass="active" to="skills" smooth={true}>
               <span className="numbers">03. </span>Skills
             </Link>
           </li>
-          {/* </Fade> */}
-
-          {/* <Fade duration={800} bottom> */}
           <li className="nav-item">
             <Link activeClass="contact" to="contact" smooth={true}>
               <span className="numbers">04. </span> Contact
             </Link>
           </li>
-          {/* </Fade> */}
         </ul>
       </Fade>
     </div>

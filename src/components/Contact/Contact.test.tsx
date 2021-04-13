@@ -1,5 +1,5 @@
 import React from "react";
-import { fireEvent, render } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import Footer from "./Contact";
 import "@testing-library/jest-dom/extend-expect";
 import PortfolioData from "../../PortfolioData";

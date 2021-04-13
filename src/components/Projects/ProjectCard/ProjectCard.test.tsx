@@ -30,7 +30,7 @@ describe("ProjectCard", () => {
   it("clicking on project opens URL", () => {
     const windowSpy = jest.spyOn(window, "open").mockImplementation(() => null);
 
-    const { queryByTestId, getByTestId } = render(
+    const { getByTestId } = render(
       <ProjectCard
         gitHubRepositoryLink={mockData.gitHubRepositoryLink}
         image={mockData.image}
@@ -48,7 +48,7 @@ describe("ProjectCard", () => {
   it("clicking on gitHub opens repo", () => {
     const windowSpy = jest.spyOn(window, "open").mockImplementation(() => null);
 
-    const { queryByTestId, getByTestId } = render(
+    const { getByTestId } = render(
       <ProjectCard
         gitHubRepositoryLink={mockData.gitHubRepositoryLink}
         image={mockData.image}
