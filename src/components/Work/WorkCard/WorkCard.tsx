@@ -17,10 +17,14 @@ const WorkCard = ({
 
   return (
     <Fade duration={800} bottom>
-      <div className="work-card-container">
-        <div className="word-card-role">{role}</div>
-        <div className="word-card-company">{company}</div>
-        <div className="word-card-duration">
+      <div className="work-card-container" data-testid="work-card-container">
+        <div className="word-card-role" data-testid="word-card-role">
+          {role}
+        </div>
+        <div className="word-card-company" data-testid="word-card-company">
+          {company}
+        </div>
+        <div className="word-card-duration" data-testid="word-card-duration">
           {duration}
           <button
             className="show-resp-btn"
@@ -51,8 +55,17 @@ const ShowResponsibilities = ({
     <Fade duration={900} down collapse when={viewResponsibilities}>
       {responsibilities.map((res, i) => {
         return (
-          <div className="word-card-responsibilities-container" key={i}>
-            <div className="word-card-responsibilities">{res}</div>
+          <div
+            className="word-card-responsibilities-container"
+            data-testid="word-card-responsibilities-container"
+            key={i}
+          >
+            <div
+              className="word-card-responsibilities"
+              data-testid="responsibility"
+            >
+              {res}
+            </div>
           </div>
         );
       })}
@@ -60,7 +73,7 @@ const ShowResponsibilities = ({
   );
 };
 
-interface workCardData {
+export interface workCardData {
   role: string;
   duration: string;
   company: string;
