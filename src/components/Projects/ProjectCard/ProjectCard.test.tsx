@@ -2,6 +2,7 @@ import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import ProjectCard, { ProjectCardData } from "./ProjectCard";
 import "@testing-library/jest-dom/extend-expect";
+
 const mockData: ProjectCardData = {
   gitHubRepositoryLink: "https://www.google.com",
   image:
