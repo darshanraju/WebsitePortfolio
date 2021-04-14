@@ -8,18 +8,22 @@ const SkillsPage = () => {
   const skills = PortfolioData.skills;
   return (
     <section id="skills">
-      <div className="skills-container">
+      <div className="skills-container" data-testid="skills-container">
         <div className="inner">
           <div className="skills-title">
             <span className="green">03. </span>Skills
           </div>
-          <div className="skills-subtitle">
-            These metrics may vary depending on whom you ask.
+          <div className="skills-subtitle" data-testid="skills-subtitle">
+            {PortfolioData.skills.skillsPageSubtitle}
           </div>
-          <div className="skills-card-container">
-            {skills.map((skill, index) => {
+          <div
+            className="skills-card-container"
+            data-testid="skills-card-container"
+          >
+            {skills.skills.map((skill, index) => {
               return (
                 <SkillsCard
+                  key={index}
                   skill={skill.name}
                   percentage={skill.percentage}
                   icon={skill.icon + " skill-icon"}
