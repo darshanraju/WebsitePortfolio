@@ -5,6 +5,7 @@ import {
   ProjectsProps,
   SkillsProps,
   ContactProps,
+  SkillsPageProps,
 } from "./components/Types";
 
 const PortfolioData: PortfolioDataProps = {
@@ -53,53 +54,56 @@ const PortfolioData: PortfolioDataProps = {
       toolsUsed: ["React", "Typescript", "HTML", "CSS"],
     },
   ],
-  skills: [
-    {
-      name: "HTML5",
-      percentage: "65",
-      icon: "fab fa-html5",
-    },
-    {
-      name: "CSS3",
-      percentage: "60",
-      icon: "devicon-css3-plain",
-    },
-    {
-      name: "Python",
-      percentage: "55",
-      icon: "fab fa-python",
-    },
-    {
-      name: "JS",
-      percentage: "70",
-      icon: "fab fa-js-square",
-    },
-    {
-      name: "React",
-      percentage: "75",
-      icon: "fab fa-react",
-    },
-    {
-      name: "MySQL",
-      percentage: "60",
-      icon: "fas fa-database",
-    },
-    {
-      name: "Typescript",
-      percentage: "60",
-      icon: "devicon-typescript-plain",
-    },
-    {
-      name: "NodeJS",
-      percentage: "60",
-      icon: "devicon-nodejs-plain",
-    },
-    {
-      name: "Flutter",
-      percentage: "40",
-      icon: "devicon-flutter-plain",
-    },
-  ],
+  skills: {
+    skillsPageSubtitle: "These metrics may vary depending on whom you ask.",
+    skills: [
+      {
+        name: "HTML5",
+        percentage: "65",
+        icon: "fab fa-html5",
+      },
+      {
+        name: "CSS3",
+        percentage: "60",
+        icon: "devicon-css3-plain",
+      },
+      {
+        name: "Python",
+        percentage: "55",
+        icon: "fab fa-python",
+      },
+      {
+        name: "JS",
+        percentage: "70",
+        icon: "fab fa-js-square",
+      },
+      {
+        name: "React",
+        percentage: "75",
+        icon: "fab fa-react",
+      },
+      {
+        name: "MySQL",
+        percentage: "60",
+        icon: "fas fa-database",
+      },
+      {
+        name: "Typescript",
+        percentage: "60",
+        icon: "devicon-typescript-plain",
+      },
+      {
+        name: "NodeJS",
+        percentage: "60",
+        icon: "devicon-nodejs-plain",
+      },
+      {
+        name: "Flutter",
+        percentage: "40",
+        icon: "devicon-flutter-plain",
+      },
+    ],
+  },
   contact: {
     contactText:
       "I'll be graduating Nov 2021, and open for graduate roles in 2022",
@@ -112,7 +116,7 @@ interface PortfolioDataProps {
   homePage: HomeProps;
   experience: Array<ExperienceProps>;
   projects: Array<ProjectsProps>;
-  skills: Array<SkillsProps>;
+  skills: SkillsPageProps;
   contact: ContactProps;
 }
 

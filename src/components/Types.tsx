@@ -38,6 +38,11 @@ export interface SkillsProps {
   icon: string;
 }
 
+export interface SkillsPageProps {
+  skillsPageSubtitle: string;
+  skills: Array<SkillsProps>;
+}
+
 export interface ContactProps {
   contactText: string;
   email: string;
