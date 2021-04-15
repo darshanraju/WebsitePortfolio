@@ -4,7 +4,7 @@
   flex-direction: row;
   background-color: #0a192f;
   width: 100%;
-  height: 4rem;
+  height: 2rem;
   z-index: 999;
 }
 
@@ -12,7 +12,7 @@
   text-align: center;
   padding-top: 0.5vh;
   margin-left: 2vw;
-  font-size: 2rem;
+  font-size: min(4vw, 2rem);
   font-weight: 900;
   font-family: "Source Code Pro", sans-serif;
   cursor: pointer;
@@ -34,11 +34,9 @@
 
 .nav-item {
   color: white;
-  font-size: 1.4rem;
-  margin-right: 2vw;
-  list-style-type: none;
+  font-size: min(3vw, 1.5rem);
+  margin-right: min(2vw, 1rem);
   transition: 0.2s;
-  height: fit-content;
 }
 
 .nav-item:hover {

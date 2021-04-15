@@ -18,7 +18,9 @@ const WorkPage: React.FC = () => {
   return (
     <section className="exp-container" id="experience">
       <div className="exp-title">
-        <span className="green">01. </span>Experience
+        <span className="testv4">
+          <span className="green">01. </span>Experience
+        </span>
       </div>
       <div className="exp-card-container">
         {experiences.map((exp, index) => {

@@ -1,9 +1,11 @@
 .skill-card-container {
+  text-align: center;
+  table-layout: fixed;
   display: flex;
   flex-direction: column;
-  margin: 2%;
-  width: 15rem;
-  height: 20rem;
+  margin: 3%;
+  width: min(15vw, 10rem);
+  height: fit-content;
   background-color: #112240;
   border-radius: 15%;
   border: 2px solid #0a192f;
@@ -17,14 +19,14 @@
 
 .skill-image-container {
   display: flex;
+  height: fit-content;
   justify-content: center;
-  flex: 2.5;
+  padding: 14%;
 }
 
 .skill-name {
-  flex: 1;
   color: white;
-  font-size: 1.5rem;
+  font-size: min(3vw, 1.5rem);
 }
 
 .logo {
@@ -35,7 +37,10 @@
 
 .skill-percentage-bar-container {
   width: 80%;
-  flex: 0.7;
+  height: min(3vw, 1.8rem);
+  margin: 5% 0%;
+  display: flex;
+  justify-self: center;
   background-color: transparent;
   border-radius: 15px;
   border: 3px solid white;
@@ -47,7 +52,7 @@
 }
 
 .skill-percentage-number {
-  flex: 1;
+  margin-bottom: 10%;
 }
 
 .skill-percentage-number {
@@ -59,5 +64,6 @@
 .skill-icon {
   padding-top: 15%;
   color: white;
-  font-size: 7rem;
+  font-size: min(15vw, 7rem);
+  /* font-size: 40v */
 }

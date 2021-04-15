@@ -1,66 +1,44 @@
 .exp-container {
-  padding: 0px 0px;
+  width: 100%;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.exp-container .exp-title {
+.exp-title {
   margin-top: 5rem;
   padding-bottom: 2rem;
-  font-size: 45px;
+  font-size: min(9vw, 40px);
   color: #f1f2f3;
-  text-align: center;
-  width: 50rem;
+  width: min(50vw, 50rem);
   text-align: left;
 }
 
 .exp-card-container {
-  /* display: flex;
-  flex-direction: row; */
-  /* position: relative; */
   margin-top: 0rem;
   display: inline-block;
-  width: 50rem;
-  width: fit-content;
-  /* height: 50rem; */
-}
-
-.aws-image {
-  position: absolute;
-  right: -18rem;
-  width: 12rem;
-  min-height: 10rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 15%;
+  width: min(80%, 70rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .company-logo {
-  /* max-height: 10rem; */
   width: 20rem;
   height: min-content;
   min-height: 5rem;
   overflow: hidden;
-  /* background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 15%; */
-}
-
-.exp-title::after {
-  content: "";
-  width: 15rem;
-  height: 2px;
-  background: #233554;
-  display: block;
-  position: relative;
-  left: 20rem;
-  bottom: 1.5rem;
 }
 
 .card-image-container {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
+}
+
+@media screen and (max-width: 450px) {
+  .company-logo {
+    display: none !important;
+  }
 }

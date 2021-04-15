@@ -15,14 +15,15 @@
 
 .skills-title {
   margin-top: 5rem;
-  font-size: 45px;
+  font-size: min(9vw, 40px);
+
   color: #f1f2f3;
   text-align: center;
   width: 100%;
   text-align: left;
 }
 
-.skills-title::after {
+/* .skills-title::after {
   content: "";
   width: 18rem;
   height: 2px;
@@ -31,11 +32,11 @@
   position: relative;
   left: 14rem;
   bottom: 1.5rem;
-}
+} */
 
 .skills-subtitle {
   color: white;
-  font-size: 1.5rem;
+  font-size: min(4.5vw, 1.5rem);
 }
 
 .skills-card-container {

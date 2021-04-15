@@ -26,6 +26,8 @@ const WorkCard = ({
         </div>
         <div className="word-card-duration" data-testid="word-card-duration">
           {duration}
+        </div>
+        <div>
           <button
             className="show-resp-btn"
             onClick={() =>

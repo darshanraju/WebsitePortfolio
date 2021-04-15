@@ -1,5 +1,4 @@
 .container {
-  padding-top: 0px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -9,7 +8,8 @@
 }
 
 .text-container {
-  padding-top: 190px;
+  /* padding-top: 30%; */
+  padding-left: 4%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -20,27 +20,21 @@
 
 .text-title {
   color: white;
-  font-size: 9rem;
-  transition: all 0.3s ease-out;
-}
-
-.text-title:hover {
-  transform: translate(0, -5px);
+  font-size: min(12.5vw, 8rem);
 }
 
 .role {
   color: #c5c6c7;
-  font-size: 4rem;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  font-size: min(8.6vw, 3rem);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .text-subtitle {
   margin-top: 3rem;
   color: #c5c6c7;
-  font-size: 1.6rem;
+  font-size: min(3.5vw, 1.8rem);
   text-align: left;
-  margin-bottom: 15px;
   width: 30%;
   font-family: "Montserrat", sans-serif;
 }
@@ -50,6 +44,6 @@
 }
 
 .text-above-name {
-  font-size: 2rem;
+  font-size: min(5vw, 2rem);
   text-align: left;
 }

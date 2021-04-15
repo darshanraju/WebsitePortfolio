@@ -6,8 +6,10 @@
 }
 
 .projects-container {
-  width: 40%;
-  height: 90%;
+  /* width: 40%; */
+  width: min(90%, 45rem);
+  /* height: 90%; */
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +18,8 @@
 .title {
   margin-top: 5rem;
   margin-bottom: 2rem;
-  font-size: 45px;
+  font-size: min(9vw, 40px);
+
   color: #f1f2f3;
   text-align: center;
   width: 100%;
@@ -31,7 +34,7 @@
   height: 100%;
   width: 100%;
 }
-
+/* 
 .title::after {
   content: "";
   width: 18rem;
@@ -41,4 +44,4 @@
   position: relative;
   left: 18rem;
   bottom: 1.5rem;
-}
+} */

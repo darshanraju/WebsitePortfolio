@@ -23,11 +23,11 @@
 
 .project-image-container {
   width: 40rem;
-  max-height: 40rem;
-  /* max-width: 40rem; */
+  height: fit-content;
   border-radius: 10%;
   border-style: solid;
   background-color: #64ffda;
+  display: flex;
 }
 
 .project-image-container:hover {
@@ -47,17 +47,18 @@
 .project-name {
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: min(6vw, 2.5rem);
   font-weight: 700;
-  padding-bottom: 2rem;
+  padding-bottom: min(2vw, 2rem);
   margin-left: 2rem;
 }
 
 .project-tools {
-  padding-top: 2rem;
-  padding-left: 2rem;
+  padding-top: min(3vw, 1.5rem);
+  padding-left: min(2vw, 1rem);
   color: white;
   font-family: "Montserrat", sans-serif;
+  font-size: min(2.5vw, 1.4rem);
 }
 
 .project-tools:hover {
@@ -65,20 +66,21 @@
 }
 
 .github-link {
-  margin-top: 2rem;
-  font-size: 2.5rem;
+  margin-top: min(4vw, 2rem);
+  font-size: min(6vw, 2.5rem);
   color: aquamarine;
 }
 
 .project-info-color-card {
   background-color: #112240;
-  padding: 3rem 2rem;
-  margin: 0rem -5rem;
-  margin-right: -6rem;
-  margin-left: -5rem;
+  /* padding: 3rem 2rem; */
+  padding: 10% 5%;
+  /* margin: 0rem -5rem; */
+  /* margin-right: -6rem; */
+  /* margin-left: -5rem; */
   border-radius: 5%;
   box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.2);
-  font-size: 1.3rem;
+  font-size: min(3vw, 1.5rem);
   width: 100%;
 }
 
@@ -87,7 +89,6 @@
   justify-content: flex-end;
   flex-wrap: wrap;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
 }
 
 .github-link:hover {
@@ -98,7 +99,6 @@
 .project-image {
   position: relative;
   width: 100%;
-  height: 100%;
   border-radius: 15%;
   opacity: 0.9;
   transition: all 0.5s ease-out;

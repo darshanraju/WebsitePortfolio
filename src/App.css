@@ -3,12 +3,16 @@ html {
 }
 body {
   margin: 0;
+  margin: 0;
+
   background-color: #0a192f;
   /* font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif; */
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  width: 100vw;
 }
 
 * {

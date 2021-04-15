@@ -7,15 +7,10 @@ const Footer = () => {
   return (
     <section data-testid="contact-section" className="contact">
       <div className="contact-container">
-        <div className="contact-title">
-          <div
-            className="text-above-contact green"
-            data-testid="contact-section-title"
-          >
-            04. Whats Next?
-          </div>
-          <div className="stay-connected">Stay Connected</div>
+        <div className="text-above-contact" data-testid="contact-section-title">
+          <span className="green">04. </span>Whats Next?
         </div>
+        <div className="stay-connected">Stay Connected</div>
         <div className="contact-info" data-testid="contact-info">
           {contact.contactText}
         </div>

@@ -12,29 +12,23 @@
   align-items: center;
 }
 
-.contact-title {
-  padding-bottom: 2rem;
-  font-size: 45px;
-  color: #f1f2f3;
-  text-align: center;
-  width: 100%;
-  text-align: left;
-  height: 10%;
-}
-
 .text-above-contact {
-  font-size: 1.5rem;
+  font-size: min(9vw, 40px);
   text-align: center;
 }
 
 .stay-connected {
   text-align: center;
+  font-size: min(6vw, 35px);
+  margin: 1.5%;
 }
 
 .contact-info {
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
+  font-size: min(4vw, 1.3rem);
+  width: 80%;
+  text-align: center;
 }
 
 .contact-btn {
@@ -56,5 +50,5 @@
   background-color: transparent;
   color: white;
   border: none;
-  font-size: 1.3rem;
+  font-size: min(4vw, 1.3rem);
 }
