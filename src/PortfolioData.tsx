@@ -50,7 +50,7 @@ const PortfolioData: PortfolioDataProps = {
       liveProjectLink: "http://www.darshanraju.com",
       projectImage: "Project-Website",
       projectName: "Web Portfolio",
-      toolsUsed: ["React", "Typescript", "HTML", "CSS"],
+      toolsUsed: ["React", "Typescript", "HTML", "CSS", "Jest"],
     },
   ],
   skills: {
