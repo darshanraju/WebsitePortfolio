@@ -3,7 +3,6 @@ import {
   HomeProps,
   ExperienceProps,
   ProjectsProps,
-  SkillsProps,
   ContactProps,
   SkillsPageProps,
 } from "./components/Types";
