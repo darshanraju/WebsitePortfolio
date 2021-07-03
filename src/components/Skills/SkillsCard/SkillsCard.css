@@ -27,6 +27,7 @@
 .skill-name {
   color: white;
   font-size: min(3vw, 1.5rem);
+  padding-bottom: 10%;
 }
 
 .logo {

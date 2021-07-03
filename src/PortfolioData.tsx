@@ -19,6 +19,16 @@ const PortfolioData: PortfolioDataProps = {
   experience: [
     //Order these roles earlier to oldest
     {
+      role: "Software Engineer",
+      company: "Fenergo",
+      duraction: "May 2021 - Present",
+      responsibilities: [
+        "Using React and .NET Core to build a SAAS service, hosted in AWS",
+        "",
+      ],
+      iconName: "Fenergo",
+    },
+    {
       role: "Software Development Engineering Intern",
       company: "Amazon Web Services",
       duraction: "Nov 2020 - Feb 2021",
@@ -100,6 +110,16 @@ const PortfolioData: PortfolioDataProps = {
         name: "Flutter",
         percentage: "40",
         icon: "devicon-flutter-plain",
+      },
+      {
+        name: "C",
+        percentage: "40",
+        icon: "devicon-csharp-plain",
+      },
+      {
+        name: "AWS",
+        percentage: "40",
+        icon: "devicon-amazonwebservices-original",
       },
     ],
   },
