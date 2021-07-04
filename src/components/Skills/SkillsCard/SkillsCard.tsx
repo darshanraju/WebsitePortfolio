@@ -14,19 +14,19 @@ const SkillsCard = ({ percentage, icon, skill }: SkillCardData) => {
         <div className="skill-name" data-testid="skill-name">
           {skill}
         </div>
-        <div className="skill-percentage-bar-container">
+        {/* <div className="skill-percentage-bar-container">
           <div
             className="skill-percentage-bar-completed"
             data-testid="skill-percentage-bar-completed"
             style={{ width: completedWidth }}
           ></div>
-        </div>
-        <div
+        </div> */}
+        {/* <div
           className="skill-percentage-number"
           data-testid="skill-percentage-number"
         >
           {percentage}%
-        </div>
+        </div> */}
       </div>
     </Fade>
   );
