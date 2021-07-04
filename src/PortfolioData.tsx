@@ -127,7 +127,7 @@ const PortfolioData: PortfolioDataProps = {
         icon: "devicon-flutter-plain",
       },
       {
-        name: "C",
+        name: "C#",
         percentage: "40",
         icon: "devicon-csharp-plain",
       },
