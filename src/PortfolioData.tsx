@@ -23,8 +23,8 @@ const PortfolioData: PortfolioDataProps = {
       company: "Fenergo",
       duraction: "May 2021 - Present",
       responsibilities: [
-        "Using React and .NET Core to build a SAAS service, hosted in AWS",
-        "",
+        "Full stack software engineer buiding a SAAS, hosted in AWS",
+        "Use React with Typescript to build micro frontends and the .NET Core for developing API's",
       ],
       iconName: "Fenergo",
     },
