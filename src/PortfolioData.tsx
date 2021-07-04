@@ -62,6 +62,21 @@ const PortfolioData: PortfolioDataProps = {
       projectName: "Web Portfolio",
       toolsUsed: ["React", "Typescript", "HTML", "CSS", "Jest"],
     },
+    {
+      description: "Created an ERC20 coin with its ICO page.",
+      githubLink: "https://github.com/darshanraju/ERC20Token-with-ICOpage",
+      liveProjectLink: "https://github.com/darshanraju/ERC20Token-with-ICOpage",
+      projectImage: "DRJU-Coin",
+      projectName: "ERC20 with ICO Site",
+      toolsUsed: [
+        "React",
+        "Typescript",
+        "Solidity",
+        "Web3",
+        "Ganache",
+        "Truffle",
+      ],
+    },
   ],
   skills: {
     skillsPageSubtitle: "These metrics may vary depending on whom you ask.",
