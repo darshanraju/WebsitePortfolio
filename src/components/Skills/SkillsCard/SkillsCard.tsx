@@ -3,7 +3,7 @@ import "./SkillsCard.css";
 const Fade = require("react-reveal/Fade");
 
 const SkillsCard = ({ percentage, icon, skill }: SkillCardData) => {
-  const completedWidth = `${percentage}%`;
+  // const completedWidth = `${percentage}%`;
 
   return (
     <Fade duration={800} up>
