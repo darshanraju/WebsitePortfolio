@@ -14,9 +14,7 @@ const PortfolioData: PortfolioDataProps = {
     name: "Darshan Raju.",
     subtitle: "and I build a few things",
     aboutMe:
-      "I'm a UNSW University Graduate in CS and Mathematics.\
-       I'm a software engineer at Microsoft Azure and a \
-       core contributor to Morphware, a blockchain based machine learning platform.",
+      "I'm a UNSW University Graduate in CS and Mathematics. I'm a software engineer at Microsoft Azure and a core contributor to Morphware, a blockchain based machine learning platform.",
   },
   experience: [
     //Order these roles earlier to oldest
