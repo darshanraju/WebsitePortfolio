@@ -1,5 +1,4 @@
 import "./ProjectCard.css";
-// import logoV2 from "../../../images/Projects/Project-Website.PNG";
 
 const Fade = require("react-reveal/Fade");
 

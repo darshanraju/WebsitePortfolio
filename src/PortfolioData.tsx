@@ -12,16 +12,28 @@ const PortfolioData: PortfolioDataProps = {
   homePage: {
     introText: "Hey, I'm",
     name: "Darshan Raju.",
-    subtitle: "and I recently started to build things",
+    subtitle: "and I build a few things",
     aboutMe:
-      "I'm a 5th year University learning computer science and mathematics. I've only recently started web development, and this site is my first major project.",
+      "I'm a UNSW University Graduate in CS and Mathematics.\
+       I'm a software engineer at Microsoft Azure and a \
+       core contributor to Morphware, a blockchain based machine learning platform.",
   },
   experience: [
     //Order these roles earlier to oldest
     {
       role: "Software Engineer",
+      company: "Microsoft",
+      duraction: "Jan 2022 - Present",
+      responsibilities: [
+        ".Net software engineer buiding microsoervice architecture for Azure",
+        "Collaborate with partner teams to developer technical proposals for solutions",
+      ],
+      iconName: "Microsoft",
+    },
+    {
+      role: "Software Engineer",
       company: "Fenergo",
-      duraction: "May 2021 - Present",
+      duraction: "May 2021 - October 2021",
       responsibilities: [
         "Full stack software engineer buiding a SAAS, hosted in AWS",
         "Use React with Typescript to build micro frontends and the .NET Core for developing API's",
@@ -58,29 +70,60 @@ const PortfolioData: PortfolioDataProps = {
       githubLink: "https://github.com/darshanraju/WebsitePortfolio",
       //Provide root directory (e.g. http://www.darshanraju.com/)
       liveProjectLink: "http://www.darshanraju.com",
-      projectImage: "Project-Website",
+      projectImage: "Project-WebsiteV2",
       projectName: "Web Portfolio",
       toolsUsed: ["React", "Typescript", "HTML", "CSS", "Jest"],
     },
     {
-      description: "Created an ERC20 coin with its ICO page.",
-      githubLink: "https://github.com/darshanraju/ERC20Token-with-ICOpage",
-      liveProjectLink: "https://github.com/darshanraju/ERC20Token-with-ICOpage",
-      projectImage: "DRJU-Coin",
-      projectName: "ERC20 with ICO Site",
+      description: "A machine learning overlay network on Ethereum.",
+      githubLink: "https://github.com/morphware/daemon",
+      liveProjectLink: "https://github.com/morphware/daemon",
+      projectImage: "Morphware",
+      projectName: "Morphware",
       toolsUsed: [
+        "Solidity",
+        "NodeJS",
         "React",
         "Typescript",
-        "Solidity",
+        "Electron",
         "Web3",
-        "Ganache",
-        "Truffle",
+        "Hardhat",
       ],
     },
   ],
   skills: {
     skillsPageSubtitle: "These metrics may vary depending on whom you ask.",
     skills: [
+      {
+        name: "Solidity",
+        percentage: "40",
+        icon: "devicon-solidity-plain",
+      },
+      {
+        name: "C#",
+        percentage: "40",
+        icon: "devicon-csharp-plain",
+      },
+      {
+        name: "Python",
+        percentage: "55",
+        icon: "fab fa-python",
+      },
+      {
+        name: "NodeJS",
+        percentage: "60",
+        icon: "devicon-nodejs-plain",
+      },
+      {
+        name: "Typescript",
+        percentage: "60",
+        icon: "devicon-typescript-plain",
+      },
+      {
+        name: "React",
+        percentage: "75",
+        icon: "fab fa-react",
+      },
       {
         name: "HTML5",
         percentage: "65",
@@ -92,55 +135,49 @@ const PortfolioData: PortfolioDataProps = {
         icon: "devicon-css3-plain",
       },
       {
-        name: "Python",
-        percentage: "55",
-        icon: "fab fa-python",
-      },
-      {
-        name: "JS",
-        percentage: "70",
-        icon: "fab fa-js-square",
-      },
-      {
-        name: "React",
-        percentage: "75",
-        icon: "fab fa-react",
-      },
-      {
         name: "MySQL",
         percentage: "60",
         icon: "fas fa-database",
       },
       {
-        name: "Typescript",
-        percentage: "60",
-        icon: "devicon-typescript-plain",
-      },
-      {
-        name: "NodeJS",
-        percentage: "60",
-        icon: "devicon-nodejs-plain",
-      },
-      {
-        name: "Flutter",
+        name: "Postgresql",
         percentage: "40",
-        icon: "devicon-flutter-plain",
-      },
-      {
-        name: "C#",
-        percentage: "40",
-        icon: "devicon-csharp-plain",
+        icon: "devicon-postgresql-plain",
       },
       {
         name: "AWS",
         percentage: "40",
         icon: "devicon-amazonwebservices-original",
       },
+      {
+        name: "Azure",
+        percentage: "40",
+        icon: "devicon-azure-plain",
+      },
+      {
+        name: "Electron",
+        percentage: "40",
+        icon: "devicon-electron-original",
+      },
+      {
+        name: "Figma",
+        percentage: "40",
+        icon: "devicon-figma-plain",
+      },
+      {
+        name: "Git",
+        percentage: "40",
+        icon: "devicon-git-plain",
+      },
+      {
+        name: "Storybook",
+        percentage: "40",
+        icon: "devicon-storybook-plain",
+      },
     ],
   },
   contact: {
-    contactText:
-      "I'll be graduating Nov 2021, and open for graduate roles in 2022",
+    contactText: "",
     email: "darshanraju9@gmail.com",
   },
 };
