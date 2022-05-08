@@ -63,16 +63,6 @@ const PortfolioData: PortfolioDataProps = {
   ],
   projects: [
     {
-      description:
-        "Built a web portfolio to create a platform to showcase current and future projects.",
-      githubLink: "https://github.com/darshanraju/WebsitePortfolio",
-      //Provide root directory (e.g. http://www.darshanraju.com/)
-      liveProjectLink: "http://www.darshanraju.com",
-      projectImage: "Project-WebsiteV2",
-      projectName: "Web Portfolio",
-      toolsUsed: ["React", "Typescript", "HTML", "CSS", "Jest"],
-    },
-    {
       description: "A machine learning overlay network on Ethereum.",
       githubLink: "https://github.com/morphware/daemon",
       liveProjectLink: "https://github.com/morphware/daemon",
@@ -87,6 +77,16 @@ const PortfolioData: PortfolioDataProps = {
         "Web3",
         "Hardhat",
       ],
+    },
+    {
+      description:
+        "Built a web portfolio to create a platform to showcase current and future projects.",
+      githubLink: "https://github.com/darshanraju/WebsitePortfolio",
+      //Provide root directory (e.g. http://www.darshanraju.com/)
+      liveProjectLink: "http://www.darshanraju.com",
+      projectImage: "Project-WebsiteV2",
+      projectName: "Web Portfolio",
+      toolsUsed: ["React", "Typescript", "HTML", "CSS", "Jest"],
     },
   ],
   skills: {
