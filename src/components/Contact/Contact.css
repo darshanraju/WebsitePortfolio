@@ -40,10 +40,13 @@
   transition: 0.5s;
 }
 
-.contact-btn:hover,
-.inner-contact-button:hover {
+.contact-btn:hover {
   cursor: pointer;
   background-color: #3e928d;
+}
+
+.inner-contact-button:hover {
+  cursor: pointer;
 }
 
 .inner-contact-button {

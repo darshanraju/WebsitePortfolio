@@ -21,7 +21,7 @@ export interface ProjectsProps {
   projectName: string;
   description: string;
   toolsUsed: Array<string>;
-  githubLink: string;
+  githubLink?: string;
   liveProjectLink?: string;
 
   //Supports only 1 image

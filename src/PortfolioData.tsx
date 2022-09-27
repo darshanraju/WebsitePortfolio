@@ -14,7 +14,7 @@ const PortfolioData: PortfolioDataProps = {
     name: "Darshan Raju.",
     subtitle: "and I build a few things",
     aboutMe:
-      "I'm a UNSW University Graduate in CS and Mathematics. I'm a software engineer at Microsoft Azure and a core contributor to Morphware, a blockchain based machine learning platform.",
+      "I'm a software engineer at Microsoft Azure and a core contributor to Morphware, a blockchain based machine learning platform.",
   },
   experience: [
     //Order these roles earlier to oldest
@@ -24,6 +24,7 @@ const PortfolioData: PortfolioDataProps = {
       duraction: "Jan 2022 - Present",
       responsibilities: [
         ".Net software engineer buiding microsoervice architecture for Azure",
+        "Build VSCode extensions for Azure to prevent services outages",
         "Collaborate with partner teams to developer technical proposals for solutions",
       ],
       iconName: "Microsoft",
@@ -33,8 +34,9 @@ const PortfolioData: PortfolioDataProps = {
       company: "Fenergo",
       duraction: "May 2021 - October 2021",
       responsibilities: [
-        "Full stack software engineer buiding a SAAS, hosted in AWS",
-        "Use React with Typescript to build micro frontends and the .NET Core for developing API's",
+        "Develop micro frontends using React with Typescript, and leveraged .NET Core to build and deploy our backend infrastructure across AWS.",
+        "Architect solutions which satisfy customer needs as well as passing GDPR compliance. Then built and scaled these financial solutions across our global AWS infrastructure to 1000's customers.",
+        "Individually contribute and maintain a storybook repository for business analysts to easily view and modify front end components, to streamline user story creation",
       ],
       iconName: "Fenergo",
     },
@@ -43,8 +45,8 @@ const PortfolioData: PortfolioDataProps = {
       company: "Amazon Web Services",
       duraction: "Nov 2020 - Feb 2021",
       responsibilities: [
-        "Used Typescript with React to develop and maintain features in an AWS service.",
-        "Integrated S3 into the AWS Incident Management service, enabling customers to upload files to their incident. This allowed for better documenting the progression and remediation of their incidents.",
+        "Integrating Amazon S3 into the AWS Incident Management service. Enabling 10,000's customers to easily upload files to their incidents, which allows for better documenting the progression and remediation of the incident.",
+        "Designed and presented AWS service integration architecture and threat models. Mitigating all potential security issues attack vectors for our customers.",
       ],
       iconName: "AWSLogo",
     },
@@ -53,15 +55,26 @@ const PortfolioData: PortfolioDataProps = {
       company: "ServiceNow",
       duraction: "Nov 2019 - Nov 2020",
       responsibilities: [
-        "Maintained customer instances by monitoring availability and latency.",
-        "Utilise MySQL, MariaDB and the InnoDB engine to resolve database monitoring alerts.",
-        "Operated in CentOS to analyse OS monitoring alerts.",
-        "Used automations runbooks to provide minimal mean time to resolutions during outages.",
+        "Responsible for availability and performance of 10,000's MySQL database instances running on Linux services which store data for 1,000's of companies",
+        "Scaled 100's of database instances with sharding and read replicas which accommodated sudden and planned increases in database workloads",
+        "Executed 100's of emergency database failovers and rollbacks (point-in-time recoveries) which mitigated potential or ongoing service impact and restored database instances to a health state.",
+        "Performed standardized tests on new data centers to ensure that all the 100's of Linux servers were setup correctly for production use.",
+        "Mentored 2 interns and 5 new hires",
       ],
       iconName: "serviceNow",
     },
   ],
   projects: [
+    {
+      description:
+        "A job board for softwaree engineers starting out their career in the industry",
+      // githubLink: "https://github.com/darshanraju/WebsitePortfolio",
+      //Provide root directory (e.g. http://www.darshanraju.com/)
+      liveProjectLink: "http://www.cse-gigs.com",
+      projectImage: "CSE-Gigs",
+      projectName: "CSE-Gigs",
+      toolsUsed: ["NextJS", "Typescript", "TailwindCSS"],
+    },
     {
       description: "A machine learning overlay network on Ethereum.",
       githubLink: "https://github.com/morphware/daemon",
@@ -90,7 +103,7 @@ const PortfolioData: PortfolioDataProps = {
     },
   ],
   skills: {
-    skillsPageSubtitle: "These metrics may vary depending on whom you ask.",
+    skillsPageSubtitle: "",
     skills: [
       {
         name: "Solidity",

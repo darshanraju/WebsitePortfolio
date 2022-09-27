@@ -47,13 +47,15 @@ const ProjectCard = ({
               );
             })}
           </div>
-          <div className="github-link">
-            <i
-              data-testid="github-link-icon"
-              onClick={() => window.open(gitHubRepositoryLink)}
-              className="fab fa-github"
-            ></i>
-          </div>
+          {gitHubRepositoryLink && (
+            <div className="github-link">
+              <i
+                data-testid="github-link-icon"
+                onClick={() => window.open(gitHubRepositoryLink)}
+                className="fab fa-github"
+              ></i>
+            </div>
+          )}
         </div>
       </Fade>
     </div>
@@ -61,7 +63,7 @@ const ProjectCard = ({
 };
 
 export interface ProjectCardData {
-  gitHubRepositoryLink: string;
+  gitHubRepositoryLink?: string;
   liveProjectLink?: string;
   image: any;
   projectInfo: string;
